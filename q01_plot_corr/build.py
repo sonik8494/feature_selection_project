@@ -16,8 +16,6 @@ def plot_corr(data, size=11):
     yticks(range(len(corr.columns)), corr.columns)
     
     
-# plot_corr(data, size=11)
-fig,ax = subplots(figsize=(11,11))
 
 
 
